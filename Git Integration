@@ -1,1 +1,25 @@
 Git Integration with multiple tools 
+Here are the steps necessary to add the Jenkins CI integration.
+
+Step 1
+In your Jenkins dashboard, click on Manage Jenkins from the left navigation.
+
+Step 2
+Click on Manage Plugins and search for the Slack Notification Plugin in the Available tab. Make sure the version is 2.2. 
+Click the checkbox and install the plugin.
+
+Step 3
+After it's installed, click on Manage Jenkins again in the left navigation, and then go to 
+Configure System. Find the Global Slack Notifier Settings section and add the following values:
+
+    Base URL: https://hmihy.slack.com/services/hooks/jenkins-ci/
+    Integration Token: gFyzwcRfks7xtgM49XTNNXLI
+
+Step 4
+For each Project that you would like receive notifications for, choose Configure from the project's menu.
+
+Step 5
+Then you'll need to add Slack Notifications to the Post-build Actions for this project.
+
+Step 6
+In the Slack Notifications section, choose the events you'd like to be notified about.
