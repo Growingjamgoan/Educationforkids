@@ -23,3 +23,6 @@ Then you'll need to add Slack Notifications to the Post-build Actions for this p
 
 Step 6
 In the Slack Notifications section, choose the events you'd like to be notified about.
+
+
+#############################################################GITHUB integration with Jenkins ################## 
